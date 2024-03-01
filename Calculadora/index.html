@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="misEstilos.css">
+    <script src="misScripts.js"></script>
+</head>
+
+<body>
+    <table class="miCalculadora">
+        <td colspan="2">
+            <h1 class="titulo">Calculadora</h1>
+        </td>
+        </tr>
+        <tr>
+            <!-- td sirve para el dar cuerpo a la tabla
+                         th sirve para el titulo de la columnas -->
+            <td><input type="text" id="numero1"></td>
+            <td><input type="text" id="numero2"></td>
+        </tr>
+        <tr>
+            <td><button id="sumar" onclick="Suma()" class="misBotones">+</button><button id="restar" onclick="Resta()"
+                    class="misBotones">-</button></td>
+            <td><button id="multiplicar" onclick="Multiplicacion()" class="misBotones">x</button><button id="dividir"
+                    onclick="Division()" class="misBotones">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="raiz" onclick="Raiz()" class="misBotones">√</button><button id="potencia"
+                    onclick="Potencia()" class="misBotones">^</button></td>
+            <td><button id="valor absoluto" onclick="V_absoluto()" class="misBotones">| |</button><button id="random"
+                    onclick="Aleatorio()" class="misBotones">🍀</button></td>
+        </tr>
+        <tr>
+            <!-- colspan se usa para indicar cuántas columnas debe abarcar una celda -->
+            <td colspan="2"><input type="text" id="mi_resultado"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="botonesOP" onclick="Redondear()">round</button>
+                <button class="botonesOP" onclick="R_abajo()">floor</button>
+                <button class="botonesOP" onclick="R_arriba()">ceil</button>
+            </td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>

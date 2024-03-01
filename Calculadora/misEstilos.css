@@ -1,0 +1,46 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* vh se usa para tomar el tamaño completo del viewport del 
+    alto de la pantalla*/
+    height: 100vh;
+    margin: auto;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightseagreen;
+}
+
+input{
+    padding: 6px;
+    border: black 2px solid;
+    text-align: center;
+}
+
+.miCalculadora{
+    background-color: lightgray; /* Da color al fondo del interior del la tabla */
+    border: black 4px solid; /* Da color todo el borde de la tabla */
+    /*padding: 2px; Espacio que se da entre el borde y el contenido */
+}
+
+.misBotones{
+    margin: 10px;
+    font-size: 32px;
+    width: 80px;
+    height: 60px;
+    border-radius: 5px; /* Para el tamaño del borde del boton */
+    cursor: pointer; /* Para que aparecesca un puntero y no el mouse */
+}
+
+.botonesOP{
+    margin: 10px;
+    font-size: 32px;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px; /* Para el tamaño del borde del boton */
+    cursor: pointer; /* Para que aparecesca un puntero y no el mouse */
+}
